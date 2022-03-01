@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="uikit-3.11.1/css/uikit.min.css">
+    <script rel="stylesheet" href="uikit-3.11.1/js/uikit-icons.min.js"></script>
+    <script src="uikit-3.11.1/js/uikit.min.js"></script>
+</head>
+<body>
+    <section class="top uk-child-width-1-2@m uk-grid-match">
+        <div class="top_left uk-width-1-3@m" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+            <div class="logo">
+                <p style="padding: 0;"  uk-toggle="target: #offcanvas-overlay"><img style="height: 50px; margin-top: 30px;" src="img/icons8-align-justify-50.png" alt=""></p>
+<div id="offcanvas-overlay" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <h3>Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+</div>
+                <p>PHOTOSEC</p>
+            </div>
+            <div class="top_down">
+                <p>PHOTOGRAPHY</p>
+                <p>STIDUE</p>
+                <a href="#">READ MORE</a> 
+            </div>     
+        </div>
+        <div class="top_right uk-width-expand@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true" >
+            <div class=" call uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="min-height: 600; max-height: 800; animation:">
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <img src="img/photosec.jpg" alt="" uk-cover>
+                        efw
+                    </li>
+                    <li>
+                        <img src="img/photosec2.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/photosec3.jpg" alt="" uk-cover>
+                    </li>
+                </ul>
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+            </div>
+            <a id="call" href="">Call us now</a>
+        </div>
+    </section>
+   <section class="top2" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
+       <div class="top2left uk-width-expand@m uk-card " >
+        <img src="img/2photosec.jpg" alt="">
+       </div>
+       <div class="top2right uk-width-1-3@m uk-card ">
+           <div class="content">
+               <h3 style="color:#fff;" >ABOUT US</h3>
+               <hr>
+               <p style="color:#fff;" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus omnis amet placeat magnam doloremque dicta enim consequuntur in impedit? Voluptas error vitae corrupti consectetur libero vero a natus est veniam.</p>
+               <a href="#">READ MORE</a>
+           </div>
+       </div>
+   </section>
+<section class="top3">
+    <div class="top3top">
+      <p>POTFOLIO</p>
+     <hr>
+    </div>
+    <div class="top3img">
+       <div class="top3mid">
+       
+             <div class="box3">
+                 <img src="img/3photosec.jpg" alt="">
+            </div>
+             <div class="box32">
+                 <img src="img/3photosec3.jpg" alt="">
+            </div>
+            <div class="box3">
+                 <img src="img/3photosec4.jpg" alt="">
+            </div>     
+        </div>
+        <div class="img3mid2">
+            <img src="img/3photosec2.jpg" alt="">
+        </div>
+        <div class="img3mid3">
+            <img src="img/3photosec5.jpg" alt="">
+        </div>
+    </div>
+</section>
+</body>
+</html>

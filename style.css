@@ -1,0 +1,143 @@
+* a{
+  text-decoration: none;
+}
+* a:hover{
+  text-decoration: none;
+}
+.top{
+  width: 100%;
+  display: flex;
+  background-color: #eeeeee;
+}
+.logo {
+  display: flex;
+}
+.top_left{
+  margin-left: 25px;
+  width: 30%;
+}
+.logo p{
+  padding-left: 25px;
+  font-size: 26pt;
+} 
+.top_down{
+  padding: 80px 0 60px 0;
+}
+.top_down p{
+  font-size: 26pt;
+  letter-spacing: normal;
+  padding: 0;
+  margin: 0;
+}
+.top_down p:nth-child(2){
+  padding-bottom: 20px;
+}
+.top_down  a{
+  margin-top: 40px;
+  padding: 10px 18px;
+  color: #fff;
+  background-color: #85260c;
+}
+.top_right{
+  width: 70%;
+  
+}
+.top_right img{
+  position: relative;
+}
+#call{
+  font-size: 17pt;
+  padding:10px 18px;
+  color: orange;
+border-top: 1px solid red;
+  position: absolute;
+  width: 12%;
+}
+.top2{
+  display:flex ;
+}
+.top2right{
+  background-color: #a34318;
+}
+.content{
+  width: 50%;
+  margin: auto;
+  padding: 100px;
+}
+.content hr{
+  border-bottom: 8px solid #fff;
+  width: 60px;
+  border-radius: 100px; 
+  margin: auto;
+  margin-left: 30px;
+}
+.content h3{
+  margin: auto;
+}
+.content p{
+  padding-top: 30px;
+}
+.content a{
+  padding: 12px 22px;
+  background-color: #85310c;
+  margin-top: 10px;
+}
+.top3{
+  width: 100%;
+  background-color: #eeeeee;
+}
+.top3top{
+  width: 10%;
+  margin: auto;
+  padding: 40px 0;
+}
+.top3top{
+  font-size: 36pt; 
+}
+.top3top hr{
+  border-bottom: 8px solid #a34318;
+  width: 60px;
+  border-radius: 100px; 
+  margin: auto;
+  margin-left: 75px;
+}
+.top3img{
+  width: 75%;
+  margin: auto;
+}
+.top3mid{
+  
+  display: flex;
+}
+.uk_coutom{
+  height: 300px;
+  width: 100px;
+  padding: 0;
+}
+.uk_coutom_2{
+height: 700px;
+}
+.box3{
+  width: 300px;
+  height: 245px;
+  padding: 0px 30px;
+ 
+}
+.box3 img{
+  box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+  }
+.img3mid2{
+  float: left;
+margin-top: -313px;
+  width: 330px;
+  height: fit-content;
+}
+.img3mid2 img{
+  width: 100%;
+}
+.img3mid3{
+  float: right;
+  margin-top: -262px;
+  width: 330px;
+  height: fit-content;
+}
