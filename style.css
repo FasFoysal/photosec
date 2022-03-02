@@ -69,10 +69,10 @@ border-top: 1px solid red;
   width: 60px;
   border-radius: 100px; 
   margin: auto;
-  margin-left: 30px;
+  
 }
 .content h3{
-  margin: auto;
+  text-align: center;
 }
 .content p{
   padding-top: 30px;
@@ -109,6 +109,7 @@ border-top: 1px solid red;
   
   display: flex;
 }
+
 .uk_coutom{
   height: 300px;
   width: 100px;
@@ -140,4 +141,88 @@ margin-top: -313px;
   margin-top: -262px;
   width: 330px;
   height: fit-content;
+}
+.top3_button {
+  padding: 80px 0;
+  text-align: center;
+}
+.top3_button a{
+  padding: 16px 20px ;
+  color: #fff;
+  margin: auto;
+  display: inline-block;
+  background-color:#85310c ;
+}
+.box4_flex{
+  display: flex;
+}
+.box4_left{
+  float: left;
+  background-color: #85260c;
+}
+.box4_left:after{
+  display: block;
+  margin: auto;
+  content: "";
+}
+.box4_right{
+  float: right;
+}
+
+.contain2{
+ background-color: #a34318;
+    height: fit-content;
+    padding: 150px 0;
+}
+
+
+.container {
+  position: relative;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url(img/xphotosec.png);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.box4_right{
+  padding: 80px 0;
+}
+#size{
+  width: 300px;
+}
+.idet{
+  margin: auto;
+  padding: 50px 0;
+}
+@media only screen and (max-width:664px) {
+.idet{
+  width: 59%;
+  margin: auto;
+  padding: 0;
+}
 }
