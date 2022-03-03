@@ -4,6 +4,9 @@
 * a:hover{
   text-decoration: none;
 }
+* li{
+  list-style: none;
+}
 .top{
   width: 100%;
   display: flex;
@@ -45,13 +48,20 @@
 .top_right img{
   position: relative;
 }
+.call_us{
+  position: absolute;
+}
 #call{
+  width: 98%;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 15px;
   font-size: 17pt;
   padding:10px 18px;
-  color: orange;
-border-top: 1px solid red;
-  position: absolute;
-  width: 12%;
+  color: black;
+margin-top: 15px;
+
+
 }
 .top2{
   display:flex ;
@@ -191,7 +201,7 @@ margin-top: -313px;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(img/xphotosec.png);
+  background-image: url(../img/xphotosec.png);
 }
 
 .container:hover .overlay {
@@ -219,10 +229,75 @@ margin-top: -313px;
   margin: auto;
   padding: 50px 0;
 }
-@media only screen and (max-width:664px) {
-.idet{
-  width: 59%;
-  margin: auto;
-  padding: 0;
+
+.left5{
+  float: left;
 }
+.left5::after{
+  content: '';
+  display: block;
+  margin: auto;
+}
+.right5{
+  float: right;
+  background-color: #a34318;
+}
+.top5content h2{
+  color: #fff;
+}
+.top5content_call p{
+  color: #fff;
+}
+.top5content_call p {
+  padding-left: 15px;
+}
+.top5content hr{
+  border-bottom: 8px solid #fff;
+  width: 60px;
+  border-radius: 100px; 
+}
+
+.top5content_call {
+  padding: 25px 0 15px 0;
+}
+.top5_auto{
+  width: 85%;
+  margin: auto;
+  padding: 100px 0;
+}
+.top5content_link a {
+  color: #fff;
+  padding: 0 10px;
+  font-size: 20px;
+}
+.buttom{
+  background-color: #762500;
+  display: flex;
+}
+.button_p{
+  width: 100%;
+  padding: 35px 0;
+}
+.b_left{
+  float: left;
+ }
+.b_left:after{
+  content: '';
+  display: block;
+  margin: auto;
+}
+.b_left p{
+  font-size: 10pt;
+  color: #fff;
+  margin-left: 18px;
+}
+.b_right{
+  float: right;
+}
+.b_right nav ul{
+  display: flex;
+}
+.b_right nav ul li{
+  padding: 0 18px;
+  color: #fff;
 }

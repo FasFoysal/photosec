@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resposive.css">
+
+    <!-- uikit -->
     <link rel="stylesheet" href="uikit-3.11.1/css/uikit.min.css">
     <script rel="stylesheet" href="uikit-3.11.1/js/uikit-icons.min.js"></script>
     <script src="uikit-3.11.1/js/uikit.min.js"></script>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/all.min.css">
+    <script src="fontawesome-free-6.0.0-web/js/all.min.js"></script>
 </head>
 <body>
     <section class="top uk-child-width-1-2@m uk-grid-match">
@@ -47,7 +54,10 @@
                 <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
                 <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
             </div>
-            <a id="call" href="">Call us now</a>
+            
+            <div class="call_us">
+                <a id="call" href="">Call us now</a>
+            </div>
         </div>
     </section>
    <section class="top2" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
@@ -136,7 +146,10 @@
                          <div class="container">
                              <img src="img/4photosec.jpg" alt="Avatar" class="image">
                              <div class="overlay">
-                               <div class="text">😀 😃 😄</div>
+                               <div class="text"><a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a></div>
                              </div>
                            </div>       
                      </div>
@@ -144,7 +157,10 @@
                           <div class="container">
                              <img id="size" src="img/4photosec2.jpg" alt="Avatar" class="image">
                              <div class="overlay">
-                               <div class="text">😀 😃 😄</div>
+                               <div class="text"><a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a></div>
                              </div>
                            </div>   
                      </div>
@@ -152,14 +168,64 @@
              </div>
              <div class="box3 idet" uk-scrollspy="cls: uk-animation-slide-left; repeat: true" >
                 <div class="container">
-                    <img src="img/4photosec.jpg" alt="Avatar" class="image">
+                    <img src="img/4photosec3.jpg" alt="Avatar" class="image">
                     <div class="overlay">
-                      <div class="text">😀 😃 😄</div>
+                      <div class="text"><a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a></div>
                     </div>
                   </div>       
             </div>
         </div>
     </div>
 </section>
+<section class="top5">
+   <div class="box4_flex">
+    <div class="left5 uk-width-expand@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true" >
+<div class="map_full">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114964.38951606015!2d-80.29967126075263!3d25.782545230564423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C%20FL%2C%20USA!5e0!3m2!1sen!2sbd!4v1646306803548!5m2!1sen!2sbd" width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+    </div>
+    <div class="right5 uk-width-1-3@m" style="float: left;" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">       
+        <div class="top5_auto">
+            <div class="top5content">
+                <h2>GET IN TOUCH</h2>
+                <hr>
+            </div>
+            <div class="top5content_call">
+                <p><i class="fa-solid fa-location-dot"></i>  Making this the first true </p>
+                <p><i class="fa-solid fa-phone"></i>  Call : +01 1234567890</p>
+                <p><i class="fa-solid fa-envelope"></i>  Email : demo@gmail.com</p>
+            </div>
+            <br>
+            <div class="top5content_link">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>    
+    </div>
+   </div>
+</section>
+<div class="buttom">
+    <div class="button_p">
+        <div class="b_left">
+            <p>Copyright 2019 All Right Reserved By Free  html Templates
+            </p>
+        </div>
+        <div class="b_right">
+            <nav>
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>PORTFOLIO</li>
+                    <li>TRAM</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
 </body>
 </html>
