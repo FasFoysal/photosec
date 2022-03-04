@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>📷photosec</title>
-    <link rel="shortcut icon" href="<i class="fa-solid fa-camera"></i>" type="image/x-icon">
+
+    <!-- jquery -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">    
     <!-- stylesheet -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/resposive.css">
@@ -22,12 +24,45 @@
     <section class="top uk-child-width-1-2@m uk-grid-match">
         <div class="top_left uk-width-1-3@m" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
             <div class="logo">
-                <p style="padding: 0;"  uk-toggle="target: #offcanvas-overlay"><img style="height: 50px; margin-top: 30px;" src="img/icons8-align-justify-50.png" alt=""></p>
+                <p style="padding: 0;"  uk-toggle="target: #offcanvas-overlay"><img style="height: 50px; margin-top: 30px;" id="jamela" src="img/icons8-align-justify-50.png" alt=""></p>
 <div id="offcanvas-overlay" uk-offcanvas="overlay: true">
     <div class="uk-offcanvas-bar">
         <button class="uk-offcanvas-close" type="button" uk-close></button>
-        <h3>Title</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      
+            <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+            <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+            <script>
+            $( function() {
+              var progressbar = $( "#progressbar" ),
+                progressLabel = $( ".progress-label" );
+           
+              progressbar.progressbar({
+                value: false,
+                change: function() {
+                  progressLabel.text( progressbar.progressbar( "value" ) + "%" );
+                },
+                complete: function() {
+                  progressLabel.text( "Enjoy full psd file plz open desktep version!" );
+                }
+              });
+           
+              function progress() {
+                var val = progressbar.progressbar( "value" ) || 0;
+           
+                progressbar.progressbar( "value", val + 2 );
+           
+                if ( val < 99 ) {
+                  setTimeout( progress, 80 );
+                }
+              }
+           
+              setTimeout( progress, 2000 );
+            } );
+            </script>
+          </head>
+          <body>
+           
+          <div id="progressbar"><div class="progress-label">Loading...</div></div>
     </div>
 </div>
                 <p>PHOTOSEC</p>
@@ -35,7 +70,7 @@
             <div class="top_down">
                 <p>PHOTOGRAPHY</p>
                 <p>STIDUE</p>
-                <a href="#">READ MORE</a> 
+                <a title="Hello every one. I am using title tag to using this" href="#">READ MORE</a> 
             </div>     
         </div>
         <div class="top_right uk-width-expand@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true" >
@@ -109,7 +144,7 @@
         </div>
         <div uk-scrollspy="cls: uk-animation-slide-right; repeat: true" class="img3mid2" >
             <div class="container">
-                <img src="img/3photosec2.jpg" alt="Avatar" class="image">
+                <img id="edi" src="img/3photosec2.jpg" alt="Avatar" class="image">
                 <div class="overlay">
                   <div class="text">Hello World</div>
                 </div>
@@ -117,7 +152,7 @@
         </div>
         <div uk-scrollspy="cls: uk-animation-slide-right; repeat: true" class="img3mid3" >
             <div class="container">
-                <img src="img/3photosec5.jpg" alt="Avatar" class="image">
+                <img id="edi2"  src="img/3photosec5.jpg" alt="Avatar" class="image">
                 <div class="overlay">
                   <div class="text">Hello World</div>
                 </div>
@@ -132,7 +167,7 @@
     <div class="box4_flex">
         <div class="box4_left uk-width-1-3@m">
             <div class="top2right  contain2 " >
-                <div class="content ">
+                <div id="mora" class="content2">
                     <h3 style="color:#fff;" >OUR CREATIVE TEAM</h3>
                     <hr>
                     <p style="color:#fff;" >he point of using LoremIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
@@ -219,10 +254,10 @@
         <div class="b_right">
             <nav>
                 <ul>
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>PORTFOLIO</li>
-                    <li>TRAM</li>
+                    <li><a title="Nathing in hare" href="#">HOME</a></li>
+                    <li><a title="Nathing in hare" href="">ABOUT</a></li>
+                    <li><a title="Nathing in hare" href="#">PORTFOLIO</a></li>
+                    <li><a title="Nathing in hare" href="#">TRAM</a></li>
                 </ul>
             </nav>
         </div>
