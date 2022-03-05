@@ -171,4 +171,10 @@
       width: 85%;
       margin-left: 0px;
     }
+    .buttom{
+      background-color: blue;
+    }
+    .b_left p{
+      color: gray;
+    }
   }
